@@ -1,0 +1,32 @@
+form{
+    border: 3px solid white;
+}
+.avatar{
+    width: 150px;
+    margin: 0;
+}
+
+input{
+    /*tamanho percentual*/
+    width: 100%;
+    /*espaçamento de margem*/
+    padding: 12px 20px;
+    /*espessura da margem*/
+    margin: 0 auto;
+    /*garantir que vao ficar "em bloco" */
+    display: inline-block;
+    /*estilo de borda*/
+    border: 1px solid;
+    /* tipo de borda em cada navegador*/
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(42, 163, 42);
+    width: 20%;
+    padding: 14px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.div-img-avatar{
+    text-align: center;
+}
